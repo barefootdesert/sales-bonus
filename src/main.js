@@ -51,7 +51,7 @@ function analyzeSalesData(data, options) {
     !Array.isArray(data.purchase_records)||
     data.purchase_records.length === 0 
   ) {
-    throw new Error("Введите конкретные входные данные");
+    throw new Error("Введите корректные входные данные");
   }
 
   if (
